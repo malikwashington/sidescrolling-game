@@ -11,50 +11,13 @@
   width: 600px;
   height: 600px
 }
-/* #game{
-  width: 90%;
-  height: 200px;
-  border: 1px solid black;
-} */
-
-/* #character{
-  width: 20px;
-  height: 50px;
-  background-color: red;
-  position: relative;
-  top: 150px;
-} */
-
-/* .jump {
-  animation: jump 500ms; 
+.controls{
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.duck{
-  animation: duck 300ms;
+.controls, select, option {
+  font-size: 25px;
 }
-.bolder{
-  width: 20px;
-  height: 20px;
-  background-color: blue;
-  position: relative;
-  top: 130px;
-  left: 480px;
-  animation: block 1s infinite linear
-}
-
-@keyframes block {
-  0%{left: 480px;}
-  100%{left: -40px}
-}
-
-@keyframes jump{
-  0%{top: 150px; height: 50px}
-  30%{top: 100px; height: 50px}
-  70%{top: 100px; height: 50px}
-  100%{top: 150px; height: 50px}
-}
-@keyframes duck {
-  0%{top: 150px; height: 50px}
-  30%{top: 180px; height: 20px}
-  70%{top: 180px; height: 20px}
-  100%{top: 150px; height: 50px}
-} */
